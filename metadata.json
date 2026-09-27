@@ -1,0 +1,8 @@
+{
+  "name": "Remix resume-builder",
+  "description": "Imported from GitHub: srinadhkunchalagit/resume-builder",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
