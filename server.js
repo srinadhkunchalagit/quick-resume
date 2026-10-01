@@ -19,12 +19,8 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// In serverless environments like Vercel, the app is exported as a handler.
-// In traditional Node environments, listen on the configured port.
-if (!process.env.VERCEL) {
-  app.listen(PORT, HOST, () => {
-    console.log(`Server running at http://${HOST}:${PORT}`);
-  });
-}
+app.listen(PORT, HOST, () => {
+  console.log(`Server running at http://${HOST}:${PORT}`);
+});
 
 export default app;

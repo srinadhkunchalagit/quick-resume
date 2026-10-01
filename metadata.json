@@ -1,6 +1,6 @@
 {
-  "name": "Remix resume-builder",
-  "description": "Imported from GitHub: srinadhkunchalagit/resume-builder",
+  "name": "Resume Builder · 200 High ATS Templates",
+  "description": "An interactive resume builder application to create, edit, preview, and download resumes as PDF across 200 professional high ATS templates (>80% score).",
   "permissions": [],
   "capabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
